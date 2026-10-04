@@ -1,0 +1,30 @@
+/* Maternidad con Jesús: identidad del manual de marca (oct 2026). Fuentes servidas desde la propia web. */
+@font-face{font-family:"Nunito";src:url("fuentes/Nunito-Regular.ttf");font-weight:400;font-display:swap}
+@font-face{font-family:"Nunito";src:url("fuentes/Nunito-Bold.ttf");font-weight:700;font-display:swap}
+@font-face{font-family:"Nunito";src:url("fuentes/Nunito-ExtraBold.ttf");font-weight:800;font-display:swap}
+@font-face{font-family:"Fredoka";src:url("fuentes/Fredoka-SemiBold.ttf");font-weight:600;font-display:swap}
+:root{--crema:#F5EDE0;--nata:#FFF9F0;--rosa:#D8A7A7;--dorado:#D4AF6A;--dorado-luz:#F6DFA6;--noche:#1F2A44;--cacao:#4A3B32;--suave:#7A6658;--linea:#E2D4BF}
+*{box-sizing:border-box}
+body{margin:0;background:var(--crema);color:var(--cacao);font-family:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.06rem;line-height:1.6}
+main{max-width:760px;margin:0 auto;padding:40px 20px 64px}
+h1,h2{font-family:"Fredoka","Nunito",system-ui,sans-serif;font-weight:600;line-height:1.15;text-wrap:balance}
+h1{font-size:clamp(2rem,6vw,2.8rem);margin:0 0 8px}
+h2{font-size:1.4rem;margin:40px 0 8px}
+a{color:var(--cacao);text-decoration-color:var(--dorado);text-decoration-thickness:2px;text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--noche);outline-offset:2px;border-radius:4px}
+img{max-width:100%;display:block}
+.marca{display:flex;align-items:center;gap:16px;margin-bottom:24px}
+.marca img{width:84px;height:84px}
+.lema{color:var(--suave);margin:0;font-weight:700}
+.portada{border-radius:18px;margin:8px 0 28px;width:100%}
+.boton{display:inline-block;background:var(--rosa);color:var(--cacao);font-weight:800;text-decoration:none;padding:12px 26px;border-radius:999px}
+.boton:hover{background:var(--dorado-luz)}
+.versiculo{background:var(--noche);color:var(--nata);border-radius:18px;padding:22px 24px;margin:36px 0;font-weight:700}
+.versiculo cite{display:block;margin-top:8px;color:var(--dorado);font-style:normal;font-weight:800}
+.lineas{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px}
+.lineas li{background:var(--nata);border:1px solid var(--linea);border-radius:14px;padding:14px 16px}
+.lineas b{display:block;font-weight:800}
+.nota{color:var(--suave);font-size:.95rem}
+code{background:var(--nata);padding:1px 5px;border-radius:5px}
+hr{border:0;border-top:1px solid var(--linea);margin:40px 0}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--linea);font-size:.92rem;color:var(--suave)}
