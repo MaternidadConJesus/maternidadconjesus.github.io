@@ -21,6 +21,9 @@ img{max-width:100%;display:block}
 .boton:hover{background:var(--dorado-luz)}
 .versiculo{background:var(--noche);color:var(--nata);border-radius:18px;padding:22px 24px;margin:36px 0;font-weight:700}
 .versiculo cite{display:block;margin-top:8px;color:var(--dorado);font-style:normal;font-weight:800}
+.destacado{background:var(--noche);color:var(--nata);border-radius:18px;padding:22px 24px;margin:36px 0;font-family:"Fredoka","Nunito",system-ui,sans-serif;font-weight:600;font-size:1.3rem;line-height:1.35;text-align:center;text-wrap:balance}
+.discreto{margin-top:40px;font-size:.95rem;color:var(--suave)}
+.discreto h2{font-size:1.1rem;color:var(--cacao)}
 .lineas{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px}
 .lineas li{background:var(--nata);border:1px solid var(--linea);border-radius:14px;padding:14px 16px}
 .lineas b{display:block;font-weight:800}
